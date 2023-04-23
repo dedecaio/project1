@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: #ccc;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+
+header {
+    height: 100%;
+
+}
+
+header .logo {
+    text-align: center;
+    padding: 10px 0;
+    width: 80%;
+    background-color: #b5281b;
+}
+
+header .menu {
+    padding: 15px 20px;
+    text-align: center;
+    background-color: #333;
+    height: 100%;
+}
+
+
+.menu nav ul {
+    list-style-type: none;
+}
+
+.menu nav ul li {
+    padding: 10px 0;
+}
+
+.menu nav ul li:nth-of-type(1) a {
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+.menu nav ul .line {
+    height: 1px;
+    margin: 10px 0;
+    width: 100%;
+    background-color: white;
+}
+
+
+.menu nav ul li i {
+    font-size: 30px;
+    color: white;
+    margin-top: 6px;
+}
+
+.menu nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
