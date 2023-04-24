@@ -16,11 +16,11 @@
 
 <body>
     <div class="flex">
-        <header>
+        <header class="first">
             <div class="menu">
                 <nav>
                     <ul>
-                        <li><a href="#">Home</a></li>
+                        <li><a href="#"><i class="fa-solid fa-home"></i></a></li>
                         <div class="line"></div>
                         <li><a href="">Adicionar classe de tarefa</a></li>
                         <li><a href="">Agenda de tarefas</a></li>
@@ -37,11 +37,363 @@
         <section class="main-content">
             <header>
                 <div class="logo">
-                    <h2>App de tarefas</h2>
+                    <div class="ico">
+                        <i class="fa-solid fa-bars"></i><i class="fa-solid fa-xmark"></i>
+                    </div>
+                    <h2>Bem vindo ao seu App de tarefas, Caio Flôres</h2>
                 </div>
             </header>
+            <!--Parte dinâmica | HOME-->
+            <div class="home">
+                <h2 class="title"><i class="fa-solid fa-home"></i> - Tarefas adicionadas</h2>
+                <div class="search-box">
+
+                    <form>
+                        <input type="text" placeholder="Search..."><button><i class="fa-solid fa-search"></i></button>
+                    </form>
+                </div>
+
+                <div class="flex tarefas">
+                    <div class="item">
+                        <h2>TAREFA X</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis debitis numquam animi
+                            explicabo quisquam! Facere porro debitis veritatis, praesentium sapiente, illum consequuntur
+                            excepturi eligendi dignissimos eius aut exercitationem minima architecto!</p>
+                        <p>Data criação: 19/04/2023</p>
+                        <p>Término da tarefa: 29/04/2005</p>
+                        <br>
+                        <a href="">Vizualizar mais</a>
+                    </div>
+
+                    <div class="item">
+                        <h2>TAREFA X</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis debitis numquam animi
+                            explicabo quisquam! Facere porro debitis veritatis, praesentium sapiente, illum consequuntur
+                            excepturi eligendi dignissimos eius aut exercitationem minima architecto!</p>
+                        <p>Data criação: 19/04/2023</p>
+                        <p>Término da tarefa: 29/04/2005</p>
+                        <br>
+                        <a href="">Vizualizar mais</a>
+                    </div>
+
+                    <div class="item">
+                        <h2>TAREFA X</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis debitis numquam animi
+                            explicabo quisquam! Facere porro debitis veritatis, praesentium sapiente, illum consequuntur
+                            excepturi eligendi dignissimos eius aut exercitationem minima architecto!</p>
+                        <p>Data criação: 19/04/2023</p>
+                        <p>Término da tarefa: 29/04/2005</p>
+                        <br>
+                        <a href="">Vizualizar mais</a>
+                    </div>
+
+                    <div class="item">
+                        <h2>TAREFA X</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis debitis numquam animi
+                            explicabo quisquam! Facere porro debitis veritatis, praesentium sapiente, illum consequuntur
+                            excepturi eligendi dignissimos eius aut exercitationem minima architecto!</p>
+                        <p>Data criação: 19/04/2023</p>
+                        <p>Término da tarefa: 29/04/2005</p>
+                        <br>
+                        <a href="">Vizualizar mais</a>
+                    </div>
+
+                    <div class="item">
+                        <h2>TAREFA X</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis debitis numquam animi
+                            explicabo quisquam! Facere porro debitis veritatis, praesentium sapiente, illum consequuntur
+                            excepturi eligendi dignissimos eius aut exercitationem minima architecto!</p>
+                        <p>Data criação: 19/04/2023</p>
+                        <p>Término da tarefa: 29/04/2005</p>
+                        <br>
+                        <a href="">Vizualizar mais</a>
+                    </div>
+
+                    <div class="item">
+                        <h2>TAREFA X</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis debitis numquam animi
+                            explicabo quisquam! Facere porro debitis veritatis, praesentium sapiente, illum consequuntur
+                            excepturi eligendi dignissimos eius aut exercitationem minima architecto!</p>
+                        <p>Data criação: 19/04/2023</p>
+                        <p>Término da tarefa: 29/04/2005</p>
+                        <br>
+                        <a href="">Vizualizar mais</a>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <!--Parte dinâmica | AGENDA -->
+
+            <div class="agenda">
+                <h2 class="title"><i class="fa-solid fa-calendar-days"></i> - Agenda</h2>
+
+                <h3>Abril</h3>
+                <div class="flex content ">
+                    <div class="calendar week">Domingo</div>
+                    <div class="calendar week">Segunda</div>
+                    <div class="calendar week">Terça</div>
+                    <div class="calendar week">Quarta</div>
+                    <div class="calendar week">Quinta</div>
+                    <div class="calendar week">Sexta</div>
+                    <div class="calendar week">Sábado</div>
+                    <div class="calendar day"></div>
+                    <div class="calendar day"></div>
+                    <div class="calendar day"></div>
+                    <div class="calendar"></div>
+                    <div class="calendar day">
+                        <a href="">1</a>
+                        <p><i class="fa-solid fa-circle-exclamation"></i></p>
+                    </div>
+                    <div class="calendar day">
+                        <a href="">2</a>
+                        <p><i class="fa-solid fa-circle-exclamation"></i></p>
+                    </div>
+                    <div class="calendar day">
+                        <a href="">3</a>
+                    </div>
+                    <div class="calendar day">
+                        <a href="">4</a>
+                    </div>
+                    <div class="calendar day">
+                        <a href="">5</a>
+                        <p><i class="fa-solid fa-circle-exclamation"></i></p>
+                    </div>
+                    <div class="calendar day">
+                        <a href="">6</a>
+                        <p><i class="fa-solid fa-circle-exclamation"></i></p>
+                    </div>
+                    <div class="calendar day">
+                        <a href="">7</a>
+
+                    </div>
+                    <div class="calendar day">
+                        <a href="">8</a>
+                    </div>
+                    <div class="calendar day">
+                        <a href="">9</a>
+                    </div>
+                    <div class="calendar day">
+                        <a href="">10</a>
+                        <p><i class="fa-solid fa-circle-exclamation"></i></p>
+                    </div>
+                    <div class="calendar day">
+                        <a href="">11</a>
+                    </div>
+                    <div class="calendar day">
+                        <a href="">12</a>
+                        <p><i class="fa-solid fa-circle-exclamation"></i></p>
+                    </div>
+                    <div class="calendar day">
+                        <a href="">13</a>
+                        <p><i class="fa-solid fa-circle-exclamation"></i></p>
+                    </div>
+                    <div class="calendar day">
+                        <a href="">14</a>
+                        <p><i class="fa-solid fa-circle-exclamation"></i></p>
+                    </div>
+                    <div class="calendar day">
+                        <a href="">15</a>
+                        <p><i class="fa-solid fa-circle-exclamation"></i></p>
+                    </div>
+                    <div class="calendar day">
+                        <a href="">16</a>
+                    </div>
+                    <div class="calendar day">
+                        <a href="">17</a>
+                        <p><i class="fa-solid fa-circle-exclamation"></i></p>
+                    </div>
+                    <div class="calendar day today">
+                        <a href="">18</a>
+                        <p><i class="fa-solid fa-circle-exclamation"></i></p>
+                    </div>
+                    <div class="calendar day">
+                        <a href="">19</a>
+                        <p><i class="fa-solid fa-circle-exclamation"></i></p>
+                    </div>
+                    <div class="calendar day">
+                        <a href="">20</a>
+                    </div>
+                    <div class="calendar day">
+                        <a href="">21</a>
+                        <p><i class="fa-solid fa-circle-exclamation"></i></p>
+                    </div>
+                    <div class="calendar day">
+                        <a href="">22</a>
+
+                    </div>
+                    <div class="calendar day">
+                        <a href="">23</a>
+                    </div>
+                    <div class="calendar day">
+                        <a href="">24</a>
+                        <p><i class="fa-solid fa-circle-exclamation"></i></p>
+                    </div>
+                    <div class="calendar day">
+                        <a href="">25</a>
+                    </div>
+                    <div class="calendar day">
+                        <a href="">26</a>
+                        <p><i class="fa-solid fa-circle-exclamation"></i></p>
+                    </div>
+                    <div class="calendar day">
+                        <a href="">27</a>
+                    </div>
+                    <div class="calendar day">
+                        <a href="">28</a>
+                        <p><i class="fa-solid fa-circle-exclamation"></i></p>
+                    </div>
+                    <div class="calendar day">
+                        <a href="">29</a>
+                        <p><i class="fa-solid fa-circle-exclamation"></i></p>
+                    </div>
+                    <div class="calendar day">
+                        <a href="">30</a>
+                        <p><i class="fa-solid fa-circle-exclamation"></i></p>
+                    </div>
+                    <div class="calendar day"></div>
+
+                </div>
+
+
+
+            </div>
+
+
+            <div class="home">
+                <h2 class="title"><i class="fa-solid fa-square-check"></i> - Tarefas realizadas</h2>
+                <div class="search-box">
+
+                    <form>
+                        <input type="text" placeholder="Search..."><button><i class="fa-solid fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="flex tarefas">
+                    <div class="item">
+                        <h2>TAREFA X</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis debitis numquam animi
+                            explicabo quisquam! Facere porro debitis veritatis, praesentium sapiente, illum consequuntur
+                            excepturi eligendi dignissimos eius aut exercitationem minima architecto!</p>
+                        <p>Data de criação: 19/04/2023</p>
+                        <p>Quando ela foi feita: 22/04/2023</p>
+                        <br>
+                        <a href="">Vizualizar mais</a>
+                    </div>
+
+                    <div class="item">
+                        <h2>TAREFA X</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis debitis numquam animi
+                            explicabo quisquam! Facere porro debitis veritatis, praesentium sapiente, illum consequuntur
+                            excepturi eligendi dignissimos eius aut exercitationem minima architecto!</p>
+                        <p>Data de criação: 19/04/2023</p>
+                        <p>Quando ela foi feita: 22/04/2023</p>
+                        <br>
+                        <a href="">Vizualizar mais</a>
+                    </div>
+
+                    <div class="item">
+                        <h2>TAREFA X</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis debitis numquam animi
+                            explicabo quisquam! Facere porro debitis veritatis, praesentium sapiente, illum consequuntur
+                            excepturi eligendi dignissimos eius aut exercitationem minima architecto!</p>
+                        <p>Data de criação: 19/04/2023</p>
+                        <p>Quando ela foi feita: 22/04/2023</p>
+                        <br>
+                        <a href="">Vizualizar mais</a>
+                    </div>
+
+                    <div class="item">
+                        <h2>TAREFA X</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis debitis numquam animi
+                            explicabo quisquam! Facere porro debitis veritatis, praesentium sapiente, illum consequuntur
+                            excepturi eligendi dignissimos eius aut exercitationem minima architecto!</p>
+                        <p>Data de criação: 19/04/2023</p>
+                        <p>Quando ela foi feita: 22/04/2023</p>
+                        <br>
+                        <a href="">Vizualizar mais</a>
+                    </div>
+
+                    <div class="item">
+                        <h2>TAREFA X</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis debitis numquam animi
+                            explicabo quisquam! Facere porro debitis veritatis, praesentium sapiente, illum consequuntur
+                            excepturi eligendi dignissimos eius aut exercitationem minima architecto!</p>
+                        <p>Data de criação: 19/04/2023</p>
+                        <p>Quando ela foi feita: 22/04/2023</p>
+                        <br>
+                        <a href="">Vizualizar mais</a>
+                    </div>
+
+                    <div class="item">
+                        <h2>TAREFA X</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis debitis numquam animi
+                            explicabo quisquam! Facere porro debitis veritatis, praesentium sapiente, illum consequuntur
+                            excepturi eligendi dignissimos eius aut exercitationem minima architecto!</p>
+                        <p>Data de criação: 19/04/2023</p>
+                        <p>Quando ela foi feita: 22/04/2023</p>
+                        <br>
+                        <a href="">Vizualizar mais</a>
+                    </div>
+
+                    <div class="item">
+                        <h2>TAREFA X</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis debitis numquam animi
+                            explicabo quisquam! Facere porro debitis veritatis, praesentium sapiente, illum consequuntur
+                            excepturi eligendi dignissimos eius aut exercitationem minima architecto!</p>
+                        <p>Data de criação: 19/04/2023</p>
+                        <p>Quando ela foi feita: 22/04/2023</p>
+                        <br>
+                        <a href="">Vizualizar mais</a>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+            <div class="modelForms">
+                <h2 class="title"><i class="fa-solid fa-circle-plus"></i> - Cadastre aqui a sua classe</h2>
+                <form method="post">
+
+                    <h4>Nome da classe:</h4>
+                    <input type="text" name="className" id="" />
+                    <input type="submit" value="Cadastrar" name="acao">
+
+                </form>
+            </div>
+
+            <div class="modelForms">
+                <h2 class="title"><i class="fa-solid fa-circle-plus"></i> - Cadastre a tarefa desejada</h2>
+                <form method="post">
+                    <h4>Nome da tarefa</h4>
+                    <input type="text" name="taskName" id="" />
+
+                    <h4>Classe:</h4>
+                    <select name="" id="">
+                        <option value="">Ciência da Computação</option>
+                        <option value="">Fisk</option>
+                        <option value="">Unisc</option>
+                    </select>
+
+                    <h4>Data de término:</h4>
+                    <input type="date" name="" id="">
+
+                    <h4>Descrição da tarefa:</h4>
+                    <textarea></textarea>
+
+                    <input type="submit" value="Cadastrar" name="acao">
+
+                </form>
+            </div>
+
         </section>
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
