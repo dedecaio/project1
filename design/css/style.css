@@ -38,21 +38,44 @@ textarea:focus {
     height: 100%;
 }
 
+body div.principal {
+    flex-wrap: nowrap;
+}
 
-header.first {
-    height: 100%;
-    width: 20%;
+header {
+    width: 100%;
+    background-color: var(--cor1);
+    height: auto;
+}
+
+header .logo {
+    padding: 10px;
+    width: 100%;
+    color: var(--cor2);
+    text-align: center;
 }
 
 
 
-header .menu {
+.logo h2 {
+    font-style: italic;
+}
+
+main.first {
+    width: 5%;
+    height: 50px;
     padding: 15px 20px;
+}
+
+
+main .menu {
     text-align: center;
     background-color: var(--cor1);
-    height: 100%;
+    padding: 10px;
     position: fixed;
-    width: inherit;
+    top: 50%;
+    border-radius: 10px;
+    transform: translate(0, -50%);
 }
 
 
@@ -64,11 +87,6 @@ header .menu {
     padding: 10px 0;
 }
 
-.menu nav ul li:nth-of-type(1) a i {
-    padding: 8px 12px;
-    border-radius: 16px;
-    color: var(--cor2);
-}
 
 .menu nav ul .line {
     height: 1px;
@@ -79,7 +97,7 @@ header .menu {
 
 
 .menu nav ul li i {
-    font-size: 30px;
+    font-size: 20px;
     color: var(--cor2);
     margin-top: 6px;
 }
@@ -92,54 +110,23 @@ header .menu {
 }
 
 section.main-content {
-    width: 80%;
+    width: 95%;
     overflow-y: auto;
 }
 
-section.main-content header {
-    width: 100%;
-    background-color: var(--cor1);
-    height: auto;
-}
 
-section.main-content header .logo {
-    padding: 10px;
-    width: 100%;
-    color: var(--cor2);
-    display: flex;
-    align-items: center;
-}
-
-.logo .ico {
-    width: 30%;
-}
-
-.logo i {
-    font-size: 25px;
-    display: inline-block;
-    cursor: pointer;
-    text-align: left;
-    margin-right: 10px;
-}
-
-.logo h2 {
-    display: inline-block;
-    text-align: right;
-    width: 70%;
-    font-style: italic;
-}
 
 
 .title {
     font-size: 25px;
     font-weight: 400;
     color: var(--cor1);
-    text-align: left;
 }
 
 section.main-content .home {
     width: 100%;
     padding: 20px 2%;
+    text-align: center;
 }
 
 
@@ -176,7 +163,7 @@ section.main-content .home {
     background-color: var(--cor3);
     color: var(--cor1);
     padding: 20px 10px;
-    text-align: center;
+    text-align: justify;
     border-radius: 15px;
 }
 
@@ -308,59 +295,4 @@ select {
 .modelForms form textarea {
     resize: none;
     height: 120px;
-}
-
-
-@media screen and (max-width: 1024px) {
-    .tarefas .item {
-        width: 45%;
-    }
-}
-
-
-@media screen and (max-width: 768px) {
-    header.first {
-        display: none;
-        width: 0;
-    }
-
-    .menu nav ul li a {
-        font-size: 15px;
-    }
-
-    section.main-content {
-        width: 100%;
-    }
-
-    .title {
-        text-align: center;
-    }
-
-    .home .search-box {
-        text-align: center;
-    }
-
-
-    .tarefas .item {
-        width: 80%;
-    }
-
-    .agenda .content {
-        width: 80%;
-    }
-
-    .agenda .day a {
-        font-size: 30px;
-    }
-
-    .agenda .week {
-        font-size: 8px;
-    }
-
-    .modelForms {
-        padding: 20px 6%;
-        text-align: left;
-    }
-
-
 }
