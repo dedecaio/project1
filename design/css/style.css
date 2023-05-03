@@ -76,6 +76,7 @@ main .menu {
     top: 50%;
     border-radius: 10px;
     transform: translate(0, -50%);
+
 }
 
 
@@ -109,13 +110,23 @@ main .menu {
     font-weight: 300;
 }
 
+div.resto {
+    text-align: end;
+    display: none;
+    opacity: 0;
+    width: 180px;
+    font-size: 18px;
+
+}
+
+.menu li.desktopIcon {
+    display: none;
+}
+
 section.main-content {
     width: 95%;
     overflow-y: auto;
 }
-
-
-
 
 .title {
     font-size: 25px;
@@ -295,4 +306,54 @@ select {
 .modelForms form textarea {
     resize: none;
     height: 120px;
+}
+
+@media screen and (max-width: 1024px) {
+    .item {
+        width: 45%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .principal {
+        flex-wrap: wrap !important;
+    }
+
+
+
+    main.first {
+        width: 60%;
+        padding: 10px 0;
+    }
+
+    main .menu {
+        width: 100%;
+        top: 10px;
+        width: inherit;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .menu nav ul .line {
+        display: none;
+    }
+
+    .menu nav ul li {
+        padding: 4px 8px;
+        display: inline-block;
+    }
+
+    .menu li.desktopIcon {
+        display: inline-block;
+    }
+
+    section.main-content {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .item {
+        width: 80%;
+    }
 }
