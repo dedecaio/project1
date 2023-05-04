@@ -1,6 +1,30 @@
 {%extends 'base.html'%}
 
 {% block content %}
+<div class="home">
+    <h2 class="title"><i class="fa-solid fa-home"></i> - Tarefas adicionadas</h2>
+    <div class="search-box">
 
-    <h2>Olá mundo!</h2>
+        <form>
+            <input type="text" placeholder="Search..."><button><i class="fa-solid fa-search"></i></button>
+        </form>
+    </div>
+
+    <div class="flex tarefas">
+
+        <div class="item">
+            <h2>TAREFA X</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis debitis numquam animi
+                explicabo quisquam! Facere porro debitis veritatis, praesentium sapiente, illum consequuntur
+                excepturi eligendi dignissimos eius aut exercitationem minima architecto!</p>
+            <p>Data criação: 19/04/2023</p>
+            <p>Término da tarefa: 29/04/2005</p>
+            <br>
+            <a href="">Vizualizar mais</a>
+        </div>
+
+
+
+    </div>
+</div>
 {%endblock%}
