@@ -3,6 +3,11 @@ $(function () {
     var windowSize = $(window).innerWidth();
     var iconeMenu = $('.menu nav ul li.desktopIcon i');
 
+    $(window).on('resize', function () {
+        location.reload();
+    });
+
+
     if (windowSize > 768) {
         $('.menu').hover(() => {
             if (hovered) {

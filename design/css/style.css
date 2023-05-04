@@ -30,6 +30,26 @@ textarea:focus {
 }
 
 
+.plus {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    background-color: var(--cor2);
+    border-radius: 50%;
+}
+
+.plus a {
+    color: var(--cor1);
+    font-size: 25px;
+    text-decoration: none;
+    position: relative;
+    top: 20%;
+    transform: translate(0, -50%);
+}
+
 
 .flex {
     display: flex;
@@ -355,5 +375,14 @@ select {
 
     .item {
         width: 80%;
+    }
+
+
+    .agenda .calendar {
+        font-size: 12px;
+    }
+
+    .agenda .day a {
+        font-size: 40px;
     }
 }
